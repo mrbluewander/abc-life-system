@@ -1,0 +1,1 @@
+from pathlib import Path\nPath('test_guardian.md').write_text('# Anti-BSOD Test\n\nAnti-BSOD system test successful!\n', encoding='utf-8')\nprint('Task executed by Auto-Guardian.')
